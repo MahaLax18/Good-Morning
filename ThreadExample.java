@@ -25,7 +25,7 @@ class WelcomeThread extends Thread {
     }
 }
 
-public class ThreadExample1 {
+public class ThreadExample {
     public static void main(String[] args) {
         new GoodMorningThread().start();
         new HelloThread().start();
